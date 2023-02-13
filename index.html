@@ -4,129 +4,145 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
+    <link rel="stylesheet" href="/css/style.css">
     <title>Barber Shop</title>
   </head>
-
   <body>
-    <header>
+
+    <!-- Page header -->
+    <header class="page-header">
       <img src="images/Logo.png" alt="Logo BarberShop App" />
-      <nav>
-        <ul>
-          <li><a href="about.html"></a>About</li>
-          <li><a href="services.html"></a>Services and price</li>
-          <li><a href="barbers.html"></a>Barbers</li>
-          <li><a href="contact.html"></a>Contact</li>
+      <nav class="header-navigation">
+        <ul class="navigation-list unstyled-list">
+          <li><a class="link" href="about.html">About</a></li>
+          <li><a class="link" href="services.html">Services and price</a></li>
+          <li><a class="link" href="barbers.html">Barbers</a></li>
+          <li><a class="link" href="contact.html">Contact</a></li>
         </ul>
-        <ul>
-          <li><a href="tel:+380441111111"></a>+38 044 111 11 11</li>
-          <li><button>Online-booking</button></li>
+        <ul class="right-navigation-list unstyled-list">
+          <li><a class="link" href="tel:+380441111111"></a>+38 044 111 11 11</li>
+          <li class="link"><button class="online-booking-button">Online-booking</button></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h3>A hair salon for men in Kyiv</h3>
-        <h2>BarberShop</h2>
-        <p>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <h3 class="hero-sub-title-section">A hair salon for men in Kyiv</h3>
+        <h2 class="hero-title-section">BarberShop</h2>
+        <p class="hero-text-section">
           We are experts in trendy men’s haircuts. <br>
           We work quickly, carefully and with style.
         </p>
       </section>
-      <section>
-        <h3>About</h3>
-        <img src="images/HairCut1.png" alt="">
-        <img src="images/HairCut2.png" alt="">
+
+      <!-- About section -->
+      <section class="page-section about">
+        <h3 class="sub-title-section">About</h3>
+        <img width="270" height="445" src="images/HairCut1.png" alt="">
+        <img width="270" height="445" src="images/HairCut2.png" alt="">
         <div>
-          <h2>Best Barbershop in your city</h2>
-          <p>
+          <h2 class="sub-title-section">Best Barbershop in your city</h2>
+          <p class="text-section-first-text">
             If you want to add more confidence to your image, you should
             definitely visit us.
           </p>
-          <p>
+          <p class="text-section">
             We are a team that never stops at what has been achieved and are
             thirsty for changes. And when you fall into the hands of our master,
             you will never be the same again. We are a team that is always "on
             the same wave" with clients. Therefore, we are always ready to
             improve everyone who comes to us!
           </p>
-          <button>ONLINE-BOOKING</button>
+          <button class="online-booking-button">ONLINE-BOOKING</button>
         </div>
       </section>
 
-      <section>
+      <!-- Services section -->
+      <section class="page-section services">
         <h3>Spend your time with the best masters</h3>
         <h2>Services and prices</h2>
-        <ul>
+        <ul class="unstyled-list">
           <li>Men’s haircut<span>from 300 uah.</span></li>
           <li>Beard trim<span>from 300 uah.</span></li>
           <li>Mustache trim<span>from 200 uah.</span></li>
           <li>Straight razor shave<span>from 200 uah.</span></li>
         </ul>
-        <ul>
+        <ul class="unstyled-list">
           <li>Trainee’s haircut<span>from 50 uah.</span></li>
           <li>Haircut under the nozzle<span>from 200 uah.</span></li>
           <li>Children’s haircut (0-12 y.o.)<span>from 300 uah.</span></li>
           <li>Camouflage of gray hair<span>from 200 uah.</span></li>
         </ul>
-        <button>ONLINE-BOOKING</button>
+        <button class="online-booking-button">ONLINE-BOOKING</button>
       </section>
 
-      <section>
-        <div>
-          <div>
-            <h3>600 <sup>+</sup></h3>
-            <p>Satisfied customers per day</p>
+      <!-- Portfolio section -->
+      <section class="page-section portfolio">
+        <div class="cards-left-side">
+          <div class="card">
+            <h3 class="card-title">600 <sup class="sup">+</sup></h3>
+            <p class="card-description">Satisfied customers per day</p>
           </div>
-          <div>
-            <h3>50 <sup>+</sup></h3>
-            <p>Awards for excellent service</p>
+          <div class="card">
+            <h3 class="card-title">50 <sup class="sup">+</sup></h3>
+            <p lass="card-description">Awards for excellent service</p>
           </div>
-          <div>
-            <h3>20 <sup>+</sup></h3>
-            <p>Kyiv’s best barbers</p>
+          <div class="card">
+            <h3 class="card-title">20 <sup class="sup">+</su></h3>
+            <p lass="card-description">Kyiv’s best barbers</p>
           </div>
-          <div>
-            <h3>100 <sup>+</sup></h3>
-            <p>Gifts for regular customers</p>
+          <div class="card">
+            <h3 class="card-title">100 <sup class="sup">+</sup></h3>
+            <p lass="card-description">Gifts for regular customers</p>
           </div>
         </div>
         <div>
-          <h3>Old traditional school</h3>
-          <h2>¿Why people come to us?</h2>
-          <p>
+          <h3 class="sub-title-section">Old traditional school</h3>
+          <h2 class="title-section">¿Why people come to us?</h2>
+          <p class="text-section">
             Only good things are said about us. But it's better to see and feel
             1 time than read 10 times.
           </p>
         </div>
       </section>
 
-      <section>
-        <h3>For true enjoyers of the atmosphere</h3>
-        <h2>Our barbers</h2>
-        <ul>
+      <!-- Our barbers section -->
+      <section class="page-section our-barbers">
+        <h3 class="sub-title-section">For true enjoyers of the atmosphere</h3>
+        <h2 class="title-section">Our barbers</h2>
+        <ul class="unstyled-list our-barbers">
           <li>
-            <img src="images/img1.png" alt="John Smith" />
-            <h3>John Smith</h3>
-            <p>Extreme Barber</p>
+            <img class="image" src="images/img1.png" alt="John Smith" />
+            <h3 class="title">John Smith</h3>
+            <p class="occupation">Extreme Barber</p>
           </li>
           <li>
-            <img src="images/img2.png" alt="Michele Doe" />
-            <h3>Michele Doe</h3>
-            <p>Extreme Barber</p>
+            <img class="image" src="images/img2.png" alt="Michele Doe" />
+            <h3 class="title">Michele Doe</h3>
+            <p class="occupation">Extreme Barber</p>
           </li>
           <li>
-            <img src="images/img3.png" alt="Alan Black" />
-            <h3>Alan Black</h3>
-            <p>Extreme Barber</p>
+            <img class="image" src="images/img3.png" alt="Alan Black" />
+            <h3 class="title">Alan Black</h3>
+            <p class="occupation">Extreme Barber</p>
           </li>
         </ul>
       </section>
 
-      <section>
-        <h3>In Latin, "barba" means "beard"</h3>
-        <h2 hidden>Hair Cut Action</h2>
-        <ul>
+      <!-- Activities section -->
+      <section class="page-section activities">
+        <h3 class="sub-title-section">In Latin, "barba" means "beard"</h3>
+        <h2 class="sub-title-section" hidden>Hair Cut Action</h2>
+        <ul class="unstyled-list">
           <li><img src="images/hairCutAction(1).png" alt="hairCutAction" /></li>
           <li><img src="images/hairCutAction(2).png" alt="hairCutAction" /></li>
           <li><img src="images/hairCutAction(3).png" alt="hairCutAction" /></li>
@@ -134,22 +150,23 @@
         </ul>
       </section>
 
-      <section>
+      <!-- Online Booking section -->
+      <section class="page-section online-booking">
         <div>
-          <h3>Online-booking</h3>
+          <h3 class="sub-title-section"></h3>>Online-booking</h3>
           <input placeholder="Name*" />
           <input placeholder="Phone*" />
           <input placeholder="Message" />
-          <button>Send</button>
+          <button class="online-booking-button">Send</button>
         </div>
         <div>
           <h3>Contacts</h3>
           <address>
-            <ul>
-              <li><a href="">st. Vasilkovaya, 7A
+            <ul class="unstyled-list">
+              <li><a class="link" href="">st. Vasilkovaya, 7A
 Kiev, 08132</li>
-              <li><a href="tel:++380441111111">+38 044 111 11 11</li>
-              <li><a href="mailto:barbershop@email.com">barbershop@email.com</li>
+              <li><a class="link" href="tel:++380441111111">+38 044 111 11 11</li>
+              <li><a class="link" href="mailto:barbershop@email.com">barbershop@email.com</li>
             </ul>
           </address>
           <h3>Working hours</h3>
@@ -157,11 +174,13 @@ Kiev, 08132</li>
         </div>
       </section>
     </main>
+
+    <!-- Page footer -->
     <footer>
       <p>&copy;Copyright 2020</p>
-      <ul>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Youtube</a></li>
+      <ul class="unstyled-list">
+        <li> <a class="link" href="#">Instagram</a></li>
+        <li><a class="link" href="#">Youtube</a></li>
       </ul>
     </footer>
   </body>
